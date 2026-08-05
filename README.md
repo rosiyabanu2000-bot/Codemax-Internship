@@ -1,45 +1,45 @@
-# Iris Flower Classification
+# AI Study Assistant
 
-## Overview
-This project demonstrates a basic Machine Learning workflow using the Iris Flower Dataset and the Decision Tree Classifier from Scikit-learn.
+## 📖 Description
+AI Study Assistant is a simple Python chatbot that answers basic questions related to Artificial Intelligence, Machine Learning, Python, ChatGPT, Gemini, and Microsoft Copilot.
 
-## Features
-- Load Iris Dataset
-- Split data into training and testing sets
-- Train a Decision Tree model
-- Evaluate model accuracy
-- Predict the species of a new flower
+## ✨ Features
+- Console-based chatbot
+- Answers AI-related questions
+- Beginner-friendly
+- No external libraries required
 
-## Technologies Used
-- Python
-- Scikit-learn
+## 🛠 Technologies Used
+- Python 3
+- VS Code
 
-## How to Run
+## ▶️ How to Run
 
-1. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Run the program
+1. Open the project folder in VS Code.
+2. Open the terminal.
+3. Run:
 
 ```bash
-python iris_model.py
+python chatbot.py
 ```
 
-## Sample Output
+## 📌 Sample Output
 
 ```
-Model Accuracy: 100.00%
+========================================
+      AI STUDY ASSISTANT
+========================================
+Type 'bye' to exit.
 
-Prediction
-----------------
-Flower: setosa
+You: What is AI?
+Bot: Artificial Intelligence enables machines to perform tasks that usually require human intelligence.
+
+You: Python
+Bot: Python is a popular programming language used in AI, ML, web development, and automation.
+
+You: bye
+Bot: Goodbye! Happy Learning 😊
 ```
 
-## Dataset
-The Iris dataset is included with Scikit-learn, so no separate download is required.
-
-## Author
+## 👩‍💻 Author
 Your Name
