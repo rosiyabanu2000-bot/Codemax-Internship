@@ -1,59 +1,66 @@
-# 🎓 Student Grade Calculator
+# Data Analysis & Visualization
 
 ## 📌 Project Overview
 
-The Student Grade Calculator is a simple Python mini project that calculates a student's total marks, average marks, and grade based on the marks entered by the user. This project demonstrates the use of Python fundamentals such as variables, loops, functions, conditional statements, and user input.
+This project demonstrates basic data analysis and visualization using Python. It uses **Pandas** and **NumPy** for data handling and **Matplotlib** for creating charts.
 
 ## 🚀 Features
 
-* Enter student name
-* Enter marks for multiple subjects
-* Calculate total marks
-* Calculate average marks
-* Display the final grade
-* Easy-to-use command-line interface
+* Load a CSV dataset
+* Explore and analyze data
+* Calculate average, highest, and lowest values
+* Add a Total Marks column
+* Create Bar Chart
+* Create Line Chart
+* Create Pie Chart
 
 ## 🛠️ Technologies Used
 
-* Python 3
+* Python 3.x
+* Pandas
+* NumPy
+* Matplotlib
+
+## 📁 Project Structure
+
+```
+Data-Analysis-and-Visualization/
+│── student_data.csv
+│── analysis.py
+│── charts.py
+└── README.md
+```
 
 ## ▶️ How to Run
 
-1. Install Python 3 on your computer.
-2. Download or clone this repository.
-3. Open the project folder in VS Code or any Python IDE.
-4. Run the following command:
-
-```bash
-python student_grade_calculator.py
-```
-
-5. Enter the required details when prompted.
-
-## 📋 Sample Output
+1. Install the required libraries:
 
 ```
-===== Student Grade Calculator =====
-
-Student Name : Rosi
-Total Marks  : 433.0
-Average      : 86.6
-Grade        : A
+pip install pandas numpy matplotlib
 ```
 
-## 📚 Concepts Used
+2. Run the data analysis script:
 
-* Variables
-* User Input
-* Functions
-* Loops
-* Conditional Statements (if-elif-else)
-* Arithmetic Operations
+```
+python analysis.py
+```
 
-## 🎯 Learning Outcome
+3. Run the visualization script:
 
-This project helps beginners understand how to build a simple Python application using core programming concepts. It also improves problem-solving skills and provides hands-on experience with Python programming.
+```
+python charts.py
+```
 
-## 👩‍💻 Author
+## 📊 Output
 
-**Rosi**
+* Displays the dataset and summary statistics.
+* Calculates average, highest, and lowest scores.
+* Generates:
+
+  * Bar Chart
+  * Line Chart
+  * Pie Chart
+
+## 👨‍💻 Author
+
+Created as part of the Data Analysis & Visualization learning module.
