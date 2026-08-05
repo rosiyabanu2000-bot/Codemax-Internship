@@ -1,66 +1,45 @@
-# Data Analysis & Visualization
+# Iris Flower Classification
 
-## 📌 Project Overview
+## Overview
+This project demonstrates a basic Machine Learning workflow using the Iris Flower Dataset and the Decision Tree Classifier from Scikit-learn.
 
-This project demonstrates basic data analysis and visualization using Python. It uses **Pandas** and **NumPy** for data handling and **Matplotlib** for creating charts.
+## Features
+- Load Iris Dataset
+- Split data into training and testing sets
+- Train a Decision Tree model
+- Evaluate model accuracy
+- Predict the species of a new flower
 
-## 🚀 Features
+## Technologies Used
+- Python
+- Scikit-learn
 
-* Load a CSV dataset
-* Explore and analyze data
-* Calculate average, highest, and lowest values
-* Add a Total Marks column
-* Create Bar Chart
-* Create Line Chart
-* Create Pie Chart
+## How to Run
 
-## 🛠️ Technologies Used
+1. Install dependencies
 
-* Python 3.x
-* Pandas
-* NumPy
-* Matplotlib
-
-## 📁 Project Structure
-
-```
-Data-Analysis-and-Visualization/
-│── student_data.csv
-│── analysis.py
-│── charts.py
-└── README.md
+```bash
+pip install -r requirements.txt
 ```
 
-## ▶️ How to Run
+2. Run the program
 
-1. Install the required libraries:
-
-```
-pip install pandas numpy matplotlib
+```bash
+python iris_model.py
 ```
 
-2. Run the data analysis script:
+## Sample Output
 
 ```
-python analysis.py
+Model Accuracy: 100.00%
+
+Prediction
+----------------
+Flower: setosa
 ```
 
-3. Run the visualization script:
+## Dataset
+The Iris dataset is included with Scikit-learn, so no separate download is required.
 
-```
-python charts.py
-```
-
-## 📊 Output
-
-* Displays the dataset and summary statistics.
-* Calculates average, highest, and lowest scores.
-* Generates:
-
-  * Bar Chart
-  * Line Chart
-  * Pie Chart
-
-## 👨‍💻 Author
-
-Created as part of the Data Analysis & Visualization learning module.
+## Author
+Your Name
